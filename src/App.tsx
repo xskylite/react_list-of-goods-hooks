@@ -15,8 +15,6 @@ export const goodsFromServer = [
   'Garlic',
 ];
 
-// 123
-
 const sortMethods = {
   abc: (a: string, b: string) => a.localeCompare(b),
   length: (a: string, b: string) => a.length - b.length,
